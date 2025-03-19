@@ -32,7 +32,9 @@ app_license = "MIT"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_list_js = {
+    "Something Document": "interview_test_app/interview_test_app/doctype/something_document/something_document_list.js"
+}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -188,3 +190,38 @@ user_data_fields = [
 #	"interview_test_app.auth.validate"
 # ]
 
+fixtures = [
+    {
+        "dt":"Workflow",
+        "filters":[
+            [
+                "name","in",[
+                    "something document workflow"
+				]
+			]
+		]
+	},
+    {
+        "dt":"Workflow State",
+        "filters":[
+            [
+                "name","in",[
+                    "Open",
+                    "Closed",
+                    "Cancel"
+				]
+			]
+		]
+	},
+    {
+        "dt":"Workflow Action Master",
+        "filters":[
+            [
+                "name","in",[
+                    "Submit",
+                    "Cancel"
+				]
+			]
+		]
+	}
+]
