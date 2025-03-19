@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2025-03-19 23:56:20.788629",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2025-03-19 23:56:20.788629",
+ "modified_by": "Administrator",
+ "module": "Interview Test App",
+ "name": "Inventory Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Product Receiving",
+ "report_name": "Inventory Report",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
