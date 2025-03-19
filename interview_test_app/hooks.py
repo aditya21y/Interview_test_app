@@ -223,5 +223,16 @@ fixtures = [
 				]
 			]
 		]
+	},
+    {
+        "dt":"Web Form",
+        "filters":[
+            [
+                "name","in",[
+                    "delivering-product",
+                    "product-receiving-form"
+				]
+			]
+		]
 	}
 ]
